@@ -15,9 +15,10 @@ describe ('validator middleware', () => {
     expect (next).toHaveBeenCalledWith ();
   });
 
-  it ('should call next() if name is in the query string', () => {
+  it ('should call next() if name is in not in the query string', () => {
     req.query = {};
     validator (req, res, next);
     expect (next).toHaveBeenCalledWith ('No name provided');
   });
 });
+
