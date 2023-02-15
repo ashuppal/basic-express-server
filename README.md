@@ -35,4 +35,4 @@ passed all the 5 test:
 5. given an name in the query string, the output object is correct - Name: ash
 
 UML
-![UML](./assets/uml.png)
+![UML](./assets/UML.png)
